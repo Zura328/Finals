@@ -17,10 +17,10 @@
     <script src='script.js'></script>
 
 <?php
-  $servername = 'localhost';
-  $username = 'root';
-  $db = 'finals';
-  $password = '5656';
+      $servername = 'sql110.epizy.com';
+      $username = 'epiz_33088872';
+      $db = 'epiz_33088872_finals';
+      $password = 'Wq7560zlnC';
   $conn = new mysqli($servername, $username, $password,$db);
   session_start();
   $IDNum=$_SESSION["IDNum"];
